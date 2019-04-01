@@ -29,4 +29,8 @@ class HomeController extends Controller
     {
         return view('settings');
     }
+    public function pages()
+    {
+        return view('pages');
+    }
 }
