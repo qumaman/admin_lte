@@ -19,4 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin/settings', 'HomeController@settings')->name('settings');
+
 Route::get('/admin/pages', 'HomeController@pages')->name('pages');
